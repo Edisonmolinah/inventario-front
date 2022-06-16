@@ -1,13 +1,61 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    background-color: azure;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.2s;
 }
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.fab {
+    border-radius: 90%;
+    bottom: 25px;
+    font-size: 30px;
+    padding: 25px;
+    position: fixed;
+    right: 25px;
+}
+.agregar{
+    font-size: 40px;
+    position: fixed;
+    padding: 5px;
+    right: 80px;
+    cursor: pointer;
+    width: 14vw;
+    height: 14vw;
+    
+}
+.agregar:hover {
+    color: rgb(64, 125, 182);
+}
+
+.sidebar {
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: white;
+    width: 100%;
+    padding:1rem 1.5rem;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.sidebar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.closet{
+    font-size: 30px;
+    cursor:pointer;
+    color:red;
+}
+.closet:hover{
+    font-size: 30px;
+    
+}   
