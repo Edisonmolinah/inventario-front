@@ -18,8 +18,8 @@ const InventarioApp = () => {
           <Route exact path="/marcas" component={MarcaView}/>
           <Route exact path="/estados" component={EstadoView}/>
           <Route exact path="/tipos" component={TipoView}/> 
-          <Route exact path="/inventarios/edit/inventarioId" component={InventarioUpdate}/>
-          <Redirect to="/" />
+          <Route exact path="/inventarios/edit/:inventarioId" component={InventarioUpdate}/>
+          
         </Switch>
     </Router>
 }

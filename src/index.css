@@ -21,13 +21,14 @@ body {
     right: 25px;
 }
 .agregar{
+    bottom: 25px;
     font-size: 40px;
     position: fixed;
     padding: 5px;
-    right: 80px;
+    right: 8px;
     cursor: pointer;
-    width: 14vw;
-    height: 14vw;
+    width: 10vw;
+    height: 10vw;
     
 }
 .agregar:hover {

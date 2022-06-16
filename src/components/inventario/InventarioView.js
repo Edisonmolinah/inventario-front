@@ -40,7 +40,6 @@ const [ openModal, setOpenModal ] = useState(false);
         openModal ? <InventarioNew handleOpenModal={handleOpenModal}
         listarInventarios={ listarInventarios } />   
         :<BsFillPlusCircleFill className="agregar" onClick={ handleOpenModal}/>
-        
         }
     </div>
   )
